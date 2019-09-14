@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8743" started-at="2019-09-14T20:19:40Z" finished-at="2019-09-14T20:19:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8743" started-at="2019-09-14T20:19:40Z" finished-at="2019-09-14T20:19:49Z">
+      <class name="com.pack.ReadExcelDataProvider">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="testSetup" is-config="true" duration-ms="4438" started-at="2019-09-14T20:19:40Z" finished-at="2019-09-14T20:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="VerifyInvalidLogin" duration-ms="1824" started-at="2019-09-14T20:19:45Z" data-provider="empLogin" finished-at="2019-09-14T20:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darshit@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="VerifyInvalidLogin" duration-ms="597" started-at="2019-09-14T20:19:47Z" data-provider="empLogin" finished-at="2019-09-14T20:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="VerifyInvalidLogin" duration-ms="568" started-at="2019-09-14T20:19:47Z" data-provider="empLogin" finished-at="2019-09-14T20:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kk@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jksjkaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="VerifyInvalidLogin" duration-ms="552" started-at="2019-09-14T20:19:48Z" data-provider="empLogin" finished-at="2019-09-14T20:19:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23442]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="VerifyInvalidLogin" duration-ms="519" started-at="2019-09-14T20:19:48Z" data-provider="empLogin" finished-at="2019-09-14T20:19:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8866888662]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[darshit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.ReadExcelDataProvider@2a556333]" name="tearDown" is-config="true" duration-ms="1382" started-at="2019-09-14T20:19:49Z" finished-at="2019-09-14T20:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.ReadExcelDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
